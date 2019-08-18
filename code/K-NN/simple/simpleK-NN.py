@@ -5,11 +5,6 @@ import collections
 
 """
 函数说明:创建数据集
-Parameters:
-	无
-Returns:
-	group - 数据集
-	labels - 分类标签
 """
 def createDataSet():
 	#四组二维特征
@@ -41,7 +36,7 @@ if __name__ == '__main__':
 	#创建数据集
 	group, labels = createDataSet()
 	#测试集
-	test = [101,20]
+	test = [1,99]
 	#kNN分类
 	test_class = classify0(test, group, labels, 3)
 	#打印分类结果
