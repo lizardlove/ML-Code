@@ -1,14 +1,20 @@
 # 机器学习笔记
 
-### 目录
+重新整理笔记，重点放在代码实现
 
-[TOC]
 
 参考资料
 
 +  [李宏毅-NTU-机器学习](<https://www.youtube.com/channel/UC2ggjtuuWvxrHHHiaDH1dlQ>)
-+  周志华 《机器学习》
++  [cs231n homework](http://cs231n.stanford.edu/2016/syllabus)
++  李航 《统计学习》第二版
 +  Peter Harrington 《机器学习实战》
+
+
+
+
+
+下面暂时不变动
 
 ## 一、机器学习
 
@@ -165,15 +171,3 @@ $\lambda$取值一般远大于1，而且正则化项中没有$b$ ，因此在进
 #### 6.2 近邻编码
 
 #### 6.3 自编码
-
-
-
-
-
-## 二、机器学习实战
-
-### K-NN
-
-[简单K-NN实现](code/K-NN/simple/simpleK-NN.py)
-
-[约会网站配对](code/K-NN/date/dating.py)
